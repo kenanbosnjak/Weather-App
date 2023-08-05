@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link href="https://fonts.cdnfonts.com/css/monzane" rel="stylesheet">
+                
+</head>
+<body>
+<div id="container">
+        <div class="searchCity">
+            <div class="search">
+            <input type="text" placeholder="Search City..." required>
+            <button><img class="searchButton" src="https://p7.hiclipart.com/preview/675/9/247/computer-icons-world-wide-web-iconfinder-search-simple-png.jpg"></button>
+            </div>
+            <div class="info">
+            <img id="weatherIcon" src="images/drizzle.png" width="200">
+            <h1>Loading...</h1>
+            <h2>Loading...</h2> 
+            <div class="details">
+                <img src="images/humidity.png" width="30px">
+                <p id="humidity">Humidity: Loading...</p>
+                <img src="images/wind.png" width="30px">
+                <p id="windspeed">Wind Speed: Loading...</p>
+            </div>
+        </div>
+    </div>
+    <div class="border"></div>
+    <div id="popularCities">
+        <h1 class="popularTitle">Popular Cities</h1>
+
+    </div>
+
+</div>  
+<div id="box">
+    <div id="container2">
+    <div id="stats">
+        <div class="stat"><img class="statimage" src="images/smile.png"><p class="stattext" id="feels">Feels Like:</p></div>
+        <div class="stat"><img class="statimage" src="images/up.png"><p class="stattext" id="highest">Highest:</p></div>
+        <div class="stat"><img class="statimage" src="images/down.png"><p class="stattext" id="lowest">Lowest:</p></div>
+        <div class="stat"><img class="statimage" src="images/pressure.png"><p class="stattext" id="pressure">Pressure:</p></div>
+    </div>
+    </div>
+    <div id="container3">
+        <div class="items3">
+            <p class="nameriseset">Sunrise</p>
+            <img class="sunrisesunet" src="images/sunrise.png" width="120" height="120">
+            <p class="textriseset" id="sunrise">0:00</p>
+        </div>
+        <div class="items3">
+            <p class="nameriseset">Sunset</p>
+            <img class="sunrisesunet" src="images/sunset.png" width="120" height="120">
+            <p class="textriseset" id="sunset">00:00</p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="weather.js"></script>
+</html>
+
+
+
